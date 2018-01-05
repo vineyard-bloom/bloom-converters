@@ -1,0 +1,44 @@
+{
+  "name": "bloom-converters",
+  "version": "0.02.91",
+  "description": "crypto conversion functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.config.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineyard-bloom/bloom-converters.git"
+  },
+  "keywords": [
+    "bloom",
+    "vineyard",
+    "crypto",
+    "currency",
+    "conversion"
+  ],
+  "author": "inkblotty (http://inkblotty.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vineyard-bloom/bloom-converters/issues"
+  },
+  "homepage": "https://github.com/vineyard-bloom/bloom-converters#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "file-loader": "^1.1.5",
+    "ignore-styles": "^5.0.1",
+    "redux": "^3.7.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0"
+  }
+}
