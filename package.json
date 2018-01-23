@@ -1,6 +1,6 @@
 {
   "name": "bloom-converters",
-  "version": "0.02.91",
+  "version": "0.02.92",
   "description": "crypto conversion functions",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,11 @@
     "currency",
     "conversion"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
+  },
   "author": "inkblotty (http://inkblotty.github.io)",
   "license": "MIT",
   "bugs": {
@@ -33,6 +38,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "bignumber.js": "^5.0.0",
+    "husky": "^0.14.3",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
