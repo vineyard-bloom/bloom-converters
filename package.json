@@ -38,7 +38,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "bignumber.js": "^5.0.0",
-    "husky": "^0.15.0-rc.2",
+    "husky": "^0.15.0-rc.3",
     "webpack": "^3.6.0"
   },
   "devDependencies": {
