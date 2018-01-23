@@ -7,6 +7,11 @@
     "build": "webpack --config=webpack.config.js",
     "test": "mocha tests/index.js --compilers js:babel-core/register"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test && yarn build"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vineyard-bloom/bloom-converters.git"
@@ -18,11 +23,6 @@
     "currency",
     "conversion"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test"
-    }
-  },
   "author": "inkblotty (http://inkblotty.github.io)",
   "license": "MIT",
   "bugs": {
